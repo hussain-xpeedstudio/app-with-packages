@@ -1,0 +1,26 @@
+{
+    "name": "yosuite/synthetic-revisions",
+    "description": "It's a revisionable package. It'll track previous data based on table and model",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SyntheticRevisions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "XpeedStudio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SyntheticRevisions\\SyntheticRevisionsProvider"
+            ],
+            "config": "config/synthetic-revisions.php"
+        }
+    }
+}

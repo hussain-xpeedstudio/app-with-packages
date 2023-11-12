@@ -1,0 +1,26 @@
+{
+    "name": "yosuite/synthetic-comments",
+    "description": "synthetic-comments is a dynamic Laravel package designed to streamline the creation of comment and reply systems within your web applications. This innovative package simplifies the process by automatically generating tables based on your model names, eliminating the need for manual table creation. With a focus on customization, synthetic-comments empowers developers to tailor their comment systems to match their application's unique requirements. It offers a user-friendly and simple steps for seamless integration, saving time, ensuring consistency, and promoting scalability. Make your Laravel projects more engaging with synthetic-comments and experience the convenience of effortless, model-based comment and reply systems",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SyntheticComments\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "XpeedStudio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SyntheticComments\\SyntheticCommentsProvider"
+            ],
+            "config": "config/synthetic-comments.php"
+        }
+    }
+}
